@@ -65,7 +65,7 @@ if __name__ == "__main__":
     import os
     from dotenv import load_dotenv, find_dotenv
     load_dotenv(find_dotenv(), override=True)
-    os.environ["OPENAI_API_KEY"]="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"
+    os.environ["OPENAI_API_KEY"]="your_api_key"
 
     st.subheader("Policy RAG")
     with st.sidebar:
